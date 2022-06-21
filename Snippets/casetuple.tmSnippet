@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>case (${1:tuple2(${2:a}, ${3:b})})
+	{ ${4:avalue}, ${5:bvalue} } : $6${7:
+	default : $8}
+endcase</string>
+	<key>name</key>
+	<string>casetuple</string>
+	<key>scope</key>
+	<string>source.bsv</string>
+	<key>tabTrigger</key>
+	<string>casetuple</string>
+</dict>
+</plist>

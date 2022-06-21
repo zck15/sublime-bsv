@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>typedef ${1:Type} ${2:Identifier}${3: deriving ($4)};</string>
+	<key>name</key>
+	<string>typedef</string>
+	<key>scope</key>
+	<string>source.bsv</string>
+	<key>tabTrigger</key>
+	<string>typedef</string>
+</dict>
+</plist>

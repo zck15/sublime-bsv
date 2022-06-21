@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>method ${2:ReturnType} ${1:methname} ($3)${4:${5: if (${6:implicit_cond})};
+	$7
+endmethod: $1}</string>
+	<key>name</key>
+	<string>methodv</string>
+	<key>scope</key>
+	<string>source.bsv</string>
+	<key>tabTrigger</key>
+	<string>methodv</string>
+</dict>
+</plist>
